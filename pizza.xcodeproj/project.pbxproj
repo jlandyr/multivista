@@ -14,6 +14,11 @@
 		624E75341CAA33FD00D49941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624E75321CAA33FD00D49941 /* LaunchScreen.storyboard */; };
 		624E753F1CAA33FD00D49941 /* pizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E753E1CAA33FD00D49941 /* pizzaTests.swift */; };
 		624E754A1CAA33FD00D49941 /* pizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E75491CAA33FD00D49941 /* pizzaUITests.swift */; };
+		62DF81E91CB1B2B500684280 /* Paso1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */; };
+		62DF81EB1CB1B5C600684280 /* Paso2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF81EA1CB1B5C600684280 /* Paso2TableViewController.swift */; };
+		62DF81ED1CB1BD1000684280 /* Paso3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF81EC1CB1BD1000684280 /* Paso3TableViewController.swift */; };
+		62DF81EF1CB1BF1000684280 /* Paso4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF81EE1CB1BF1000684280 /* Paso4TableViewController.swift */; };
+		62DF81F11CB1E78000684280 /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF81F01CB1E78000684280 /* ConfirmacionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		624E75451CAA33FD00D49941 /* pizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		624E75491CAA33FD00D49941 /* pizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaUITests.swift; sourceTree = "<group>"; };
 		624E754B1CAA33FD00D49941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso1TableViewController.swift; sourceTree = "<group>"; };
+		62DF81EA1CB1B5C600684280 /* Paso2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso2TableViewController.swift; sourceTree = "<group>"; };
+		62DF81EC1CB1BD1000684280 /* Paso3TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso3TableViewController.swift; sourceTree = "<group>"; };
+		62DF81EE1CB1BF1000684280 /* Paso4TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso4TableViewController.swift; sourceTree = "<group>"; };
+		62DF81F01CB1E78000684280 /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		624E751D1CAA33FC00D49941 = {
 			isa = PBXGroup;
 			children = (
+				62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */,
 				624E75281CAA33FD00D49941 /* pizza */,
 				624E753D1CAA33FD00D49941 /* pizzaTests */,
 				624E75481CAA33FD00D49941 /* pizzaUITests */,
@@ -99,6 +110,10 @@
 			children = (
 				624E75291CAA33FD00D49941 /* AppDelegate.swift */,
 				624E752B1CAA33FD00D49941 /* ViewController.swift */,
+				62DF81F01CB1E78000684280 /* ConfirmacionViewController.swift */,
+				62DF81EA1CB1B5C600684280 /* Paso2TableViewController.swift */,
+				62DF81EC1CB1BD1000684280 /* Paso3TableViewController.swift */,
+				62DF81EE1CB1BF1000684280 /* Paso4TableViewController.swift */,
 				624E752D1CAA33FD00D49941 /* Main.storyboard */,
 				624E75301CAA33FD00D49941 /* Assets.xcassets */,
 				624E75321CAA33FD00D49941 /* LaunchScreen.storyboard */,
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DF81E91CB1B2B500684280 /* Paso1TableViewController.swift in Sources */,
+				62DF81ED1CB1BD1000684280 /* Paso3TableViewController.swift in Sources */,
+				62DF81F11CB1E78000684280 /* ConfirmacionViewController.swift in Sources */,
+				62DF81EB1CB1B5C600684280 /* Paso2TableViewController.swift in Sources */,
+				62DF81EF1CB1BF1000684280 /* Paso4TableViewController.swift in Sources */,
 				624E752C1CAA33FD00D49941 /* ViewController.swift in Sources */,
 				624E752A1CAA33FD00D49941 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +504,7 @@
 				624E75501CAA33FD00D49941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		624E75511CAA33FD00D49941 /* Build configuration list for PBXNativeTarget "pizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				624E75531CAA33FD00D49941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		624E75541CAA33FD00D49941 /* Build configuration list for PBXNativeTarget "pizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				624E75561CAA33FD00D49941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

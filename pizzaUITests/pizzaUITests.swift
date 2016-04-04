@@ -2,7 +2,7 @@
 //  pizzaUITests.swift
 //  pizzaUITests
 //
-//  Created by Pedro Jose on 28/3/16.
+//  Created by Juan Landy on 28/3/16.
 //  Copyright © 2016 eureka. All rights reserved.
 //
 
