@@ -127,7 +127,7 @@
 		62CADAAB1CBC1BA5002875D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62CADAAD1CBC1BA5002875D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CADAB91CBC1DE3002875D6 /* Paso1InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso1InterfaceController.swift; sourceTree = "<group>"; };
-		62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso1TableViewController.swift; sourceTree = "<group>"; };
+		62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paso1TableViewController.swift; path = ../Paso1TableViewController.swift; sourceTree = "<group>"; };
 		62DF81EA1CB1B5C600684280 /* Paso2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso2TableViewController.swift; sourceTree = "<group>"; };
 		62DF81EC1CB1BD1000684280 /* Paso3TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso3TableViewController.swift; sourceTree = "<group>"; };
 		62DF81EE1CB1BF1000684280 /* Paso4TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso4TableViewController.swift; sourceTree = "<group>"; };
@@ -169,7 +169,6 @@
 		624E751D1CAA33FC00D49941 = {
 			isa = PBXGroup;
 			children = (
-				62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */,
 				624E75281CAA33FD00D49941 /* pizza */,
 				624E753D1CAA33FD00D49941 /* pizzaTests */,
 				624E75481CAA33FD00D49941 /* pizzaUITests */,
@@ -197,6 +196,7 @@
 				624E75291CAA33FD00D49941 /* AppDelegate.swift */,
 				624E752B1CAA33FD00D49941 /* ViewController.swift */,
 				62DF81F01CB1E78000684280 /* ConfirmacionViewController.swift */,
+				62DF81E81CB1B2B500684280 /* Paso1TableViewController.swift */,
 				62DF81EA1CB1B5C600684280 /* Paso2TableViewController.swift */,
 				62DF81EC1CB1BD1000684280 /* Paso3TableViewController.swift */,
 				62DF81EE1CB1BF1000684280 /* Paso4TableViewController.swift */,
